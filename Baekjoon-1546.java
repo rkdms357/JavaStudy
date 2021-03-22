@@ -19,7 +19,7 @@ public class Main {
 		}
 		scanner.close();
 		
-		avg = (double)(sum * 100 / max) / n;
+		avg = (double)(sum * 100 / max / n);
 		System.out.println(avg);
 	}
 }
