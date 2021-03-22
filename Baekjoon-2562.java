@@ -10,8 +10,7 @@ public class Main {
 		
 		for (int i = 0; i < 9; i++) {
 			a[i] = scanner.nextInt();
-			if (a[i] >= 100)
-				break;
+
 			if (a[i] > max) {
 				max = a[i];
 				count = i + 1;
